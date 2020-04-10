@@ -1,0 +1,87 @@
+body{
+    margin:0;
+    background:linear-gradient(lightpink,white);
+    text-align:center;
+    font-family: sans-serif;
+}
+#heading{
+    color:darkslategray;
+    margin-top:2vh;
+    font-weight: 700;
+    font-size: 2rem;
+}
+ul{
+    list-style-type: none;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height:auto;
+    width:50vw;
+    margin:auto;
+}
+li{
+    width:100%;
+    height:auto;
+    background: linear-gradient(lightblue,white);
+    border:1px solid lightslategray;
+    margin-bottom:0.2vh;
+    font-weight:500;
+}
+li:hover{
+    font-size: larger;
+    background: linear-gradient(lightgrey,white);
+}
+p{
+    display:inline-block;
+    margin:1vh 0vw;
+    color:olive;
+}
+.name{
+    /* padding-right:6vw; */
+    width:40%;
+}
+.number{
+    /* padding-left: 6vw; */
+    width:40%;
+    text-align:right;
+}
+
+form{
+    margin-top:3vh;
+    margin-left:3vw;
+}
+input{
+    background: linear-gradient(white,lightpink);
+    border:1px solid lightgray;
+    padding-left:0.5vw;
+}
+button{
+    background-color: rgb(210, 223, 165);
+    border:1px solid lightgray;
+    color:olive;
+}
+button:hover{
+    cursor:pointer;
+    background-color:lightgrey;
+}
+.name-number{
+    width:80%;
+    display:flex;
+    text-align: left;
+    
+}
+.delete-button a i{
+    color:rgb(117, 105, 105);
+}
+.delete-button a i:hover{
+    /* size:1.5rem; */
+    color:rgb(175, 41, 41);
+}
+
+
+
+
+
+.inline{
+    display: inline-block;
+}
